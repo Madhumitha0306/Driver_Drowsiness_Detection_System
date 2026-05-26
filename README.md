@@ -18,6 +18,7 @@ Live webcam monitoring
 AI-based fatigue detection
 Easy to run and lightweight
 Improves driver safety
+
 🛠️ Technologies Used
 Python
 OpenCV
@@ -26,6 +27,7 @@ Dlib / Haar Cascade
 TensorFlow / Keras (if used)
 CNN Model (if used)
 Webcam Video Streaming
+
 📂 Project Structure
 Driver_Drowsiness_Detection_System/
 │
@@ -37,6 +39,7 @@ Driver_Drowsiness_Detection_System/
 ├── train_model.py           # Model training script
 ├── requirements.txt         # Required libraries
 └── README.md
+
 ⚙️ How It Works
 The webcam captures live video frames.
 The system detects the driver's face.
@@ -44,6 +47,8 @@ Eyes are extracted from the detected face region.
 The model predicts whether the eyes are open or closed.
 If the eyes remain closed for a certain number of frames, the system identifies drowsiness.
 An alarm sound is triggered to alert the driver.
+
+
 🧠 Detection Method
 
 The project uses Computer Vision techniques such as:
@@ -59,15 +64,21 @@ The model continuously analyzes eye movements and blinking patterns to determine
 Detects face and eyes in real time
 Displays drowsiness warning on screen
 Plays alarm when the driver appears sleepy
+
 🚀 Installation
+
 1️⃣ Clone the Repository
 git clone https://github.com/Madhumitha0306/Driver_Drowsiness_Detection_System.git
+
 2️⃣ Navigate to the Project Folder
 cd Driver_Drowsiness_Detection_System
+
 3️⃣ Install Required Packages
 pip install -r requirements.txt
 ▶️ Run the Project
+
 python main.py
+
 📋 Requirements
 
 Example libraries used:
@@ -80,11 +91,13 @@ scipy
 tensorflow
 keras
 pygame
+
 🎯 Applications
 Smart vehicle safety systems
 Driver monitoring systems
 Accident prevention systems
 AI-powered transportation safety
+
 📈 Future Enhancements
 Mobile application integration
 IoT-based vehicle monitoring
@@ -92,6 +105,7 @@ Yawning detection
 Head pose estimation
 Night vision support
 Cloud monitoring dashboard
+
 🧪 Dataset
 
 The project can be trained using eye-state datasets containing:
@@ -113,6 +127,7 @@ Driver is alerted instantly
 Driver drowsiness detection research papers
 OpenCV documentation
 CNN-based fatigue detection systems
+
 🤝 Contributing
 
 Contributions are welcome!
