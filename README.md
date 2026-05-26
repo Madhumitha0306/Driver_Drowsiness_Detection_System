@@ -11,6 +11,7 @@ The system captures live video through a webcam, detects the driver's face and e
 Research studies also highlight that driver drowsiness detection systems significantly help in reducing road accidents caused by fatigue.
 
 ✨ Features
+
 Real-time face and eye detection
 Detects prolonged eye closure
 Audio alert/alarm system
@@ -20,27 +21,15 @@ Easy to run and lightweight
 Improves driver safety
 
 🛠️ Technologies Used
-Python
-OpenCV
-NumPy
-Dlib / Haar Cascade
-TensorFlow / Keras (if used)
-CNN Model (if used)
-Webcam Video Streaming
 
-📂 Project Structure
-Driver_Drowsiness_Detection_System/
-│
-├── dataset/                 # Dataset used for training
-├── models/                  # Trained model files
-├── haarcascade_files/       # Haar cascade XML files
-├── alarm.wav                # Alert sound
-├── main.py                  # Main execution file
-├── train_model.py           # Model training script
-├── requirements.txt         # Required libraries
-└── README.md
+1. Python
+2. OpenCV
+3. NumPy
+4.Dlib / Haar Cascade
+5. Webcam Video Streaming
 
 ⚙️ How It Works
+
 The webcam captures live video frames.
 The system detects the driver's face.
 Eyes are extracted from the detected face region.
@@ -61,6 +50,7 @@ CNN-based Eye Classification (if implemented)
 The model continuously analyzes eye movements and blinking patterns to determine driver alertness.
 
 📸 Output
+
 Detects face and eyes in real time
 Displays drowsiness warning on screen
 Plays alarm when the driver appears sleepy
@@ -93,12 +83,14 @@ keras
 pygame
 
 🎯 Applications
+
 Smart vehicle safety systems
 Driver monitoring systems
 Accident prevention systems
 AI-powered transportation safety
 
 📈 Future Enhancements
+
 Mobile application integration
 IoT-based vehicle monitoring
 Yawning detection
